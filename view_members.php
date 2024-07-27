@@ -1,3 +1,12 @@
+<?php
+session_start();
+
+// Check if the user is logged in as admin
+if (!isset($_SESSION['admin_logged_in']) || !$_SESSION['admin_logged_in']) {
+    header('Location: admin_login.php');
+    exit();
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -64,7 +73,10 @@
    <div class="all">
   <div class="forms">
   <h2>Registered Members</h2>
-  <p><a href="index.php">Add a member</a></p>
+  <p><a href="add_member.php">Add a member</a></p>
+  <p>
+    <a href="logout.php">Logout</a>
+  </p>
   </div>
     
     <div class="forms">
