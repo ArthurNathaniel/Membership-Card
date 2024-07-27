@@ -8,8 +8,10 @@
 </head>
 <body>
  <div class="forms_all">
- <h2>Register Member</h2>
-    
+<div class="forms">
+<h2>Register Member</h2>
+<p><a href="view_members.php">View a member</a></p>
+</div>
     <?php
     include 'db.php';
 
@@ -36,7 +38,7 @@
             $stmt = $conn->query("SELECT COUNT(*) AS count FROM members");
             $row = $stmt->fetch();
             $count = $row['count'] + 1;
-            $membership_id = sprintf("SMAPA-%03d", $count);
+            $membership_id = sprintf("SMPA-%03d", $count);
 
             // Insert member data into the database
             $sql = "INSERT INTO members (membership_id, name, company_name, profile_picture) VALUES (?, ?, ?, ?)";

@@ -62,7 +62,10 @@
 </head>
 <body>
    <div class="all">
-   <h2>Registered Members</h2>
+  <div class="forms">
+  <h2>Registered Members</h2>
+  <p><a href="index.php">Add a member</a></p>
+  </div>
     
     <div class="forms">
         <input type="text" id="searchInput" placeholder="Search members..." onkeyup="searchMembers()">
