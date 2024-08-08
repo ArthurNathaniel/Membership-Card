@@ -71,6 +71,7 @@ if (!isset($_SESSION['admin_logged_in']) || !$_SESSION['admin_logged_in']) {
         }
     </style>
 </head>
+<?php include 'navbar.php'?>
 <body>
    <div class="all">
   <div class="forms">

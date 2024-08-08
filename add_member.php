@@ -19,12 +19,12 @@ if (!isset($_SESSION['admin_logged_in']) || !$_SESSION['admin_logged_in']) {
     <link rel="stylesheet" href="./css/base.css">
 </head>
 <body>
+<?php include 'navbar.php'?>
  <div class="forms_all">
 <div class="forms">
 <h2>Register Member</h2>
-<p><a href="view_members.php">View a member</a></p>
-<p>
-    <a href="logout.php">Logout</a>
+
+   
   </p>
 </div>
     <?php

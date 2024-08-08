@@ -8,7 +8,7 @@
     <div class="nav_links">
      <a href="index.php">Search Members</a>
      <a href="add_member.php">Add Member</a>
-     <a href="add_member.php">Add Member</a>
+     <a class="logout" href="logout.php">Logout</a>
     </div>
 
 
@@ -16,11 +16,10 @@
         <i class="fa-solid fa-bars-staggered"></i>
     </button>
     <div class="mobile">
-    <a href="index.php">Home</a>
-        <a href="about.php">About Us</a>
-        <a href="executive.php">Our Exectives</a>
-       <a href="photo.php">Photo Gallery</a>
-       <a href="contact.php">Contact Us</a>
+    
+    <a href="index.php">Search Members</a>
+     <a href="add_member.php">Add Member</a>
+     <a class="logout" href="logout.php">Logout</a>
     </div>
 
 

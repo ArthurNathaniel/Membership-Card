@@ -60,6 +60,9 @@
         .search-container {
             margin-bottom: 20px;
         }
+        .logout{
+            display: none;
+        }
     </style>
 </head>
 <body>
