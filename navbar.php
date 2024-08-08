@@ -8,6 +8,7 @@
     <div class="nav_links">
      <a href="index.php">Search Members</a>
      <a href="add_member.php">Add Member</a>
+     <a class="logout" href="logout.php">Edit Members</a>
      <a class="logout" href="logout.php">Logout</a>
     </div>
 
