@@ -14,6 +14,8 @@ if (!isset($_SESSION['admin_logged_in']) || !$_SESSION['admin_logged_in']) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Member Registration</title>
+    <link rel="icon" href="./images/logo.png" sizes="180x180" type="image/png">
+ <link rel="apple-touch-icon" sizes="180x180" href="./images/logo.png">
     <link rel="stylesheet" href="./css/base.css">
 </head>
 <body>
